@@ -33,7 +33,7 @@ function MenuItem({children, disabled, disabledTextColor, ellipsizeMode, onPress
 }
 
 MenuItem.propTypes = {
-  children: PropTypes.func,
+  children: PropTypes.object,
   disabled: PropTypes.bool,
   disabledTextColor: PropTypes.string,
   ellipsizeMode: PropTypes.string,
